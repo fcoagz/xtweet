@@ -49,7 +49,7 @@ class Media(object):
                     else:
                         raise requests.exceptions.HTTPError(f"No se pudo descargar la imagen {i}. Código de estado: {response.status_code}")
 
-    def download_video(self, fp: str, name_file: str = "video") -> None:
+    def download_video(self, fp: str = './', name_file: str = "video") -> None:
         """
         Descarga el primer video incluido en el tweet, si está disponible.
 
