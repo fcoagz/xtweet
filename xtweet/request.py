@@ -14,5 +14,5 @@ def get_from_cache_or_api(cache, name: str, url: str):
         return cache[name]
     else:
         response = ensure_200_and_return_content(requests.get(url))
-        cache[name] = response.json()
+        cache[name] = response
         return cache[name]
