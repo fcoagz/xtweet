@@ -1,0 +1,30 @@
+[project]
+name = "xtweet"
+version = "1.0.0"
+authors = [
+  { name="Francisco Griman", email="grihardware@gmail.com" },
+]
+description = "Es una biblioteca que te permite interactuar de manera eficiente con la API de Twitter."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = [
+    "api",
+    "twitter",
+    "social media",
+    "data extraction",
+    "media download",
+    "python"
+]
+dependencies = [
+  "requests",
+  "cachetools"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/fcoagz/xtweet"
+"Bug Tracker" = "https://github.com/fcoagz/xtweet/issues"
